@@ -13,6 +13,7 @@ namespace RegX
         {
             User us1 =new User();
            Console.WriteLine( us1.validateFirstName("Rohit"));
+            Console.WriteLine(us1.validateLastName("Soni"));
         }
     }
 }
