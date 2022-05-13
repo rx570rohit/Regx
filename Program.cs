@@ -15,6 +15,7 @@ namespace RegX
             Console.WriteLine(us1.validateFirstName("Rohit"));
             Console.WriteLine(us1.validateLastName("Soni"));
             Console.WriteLine(us1.validateMobNo("91 8319871184"));
+            Console.WriteLine(us1.validateEmail("rohit.soni2018@vitbhopal.ac.in"));
         }
     }
 }
