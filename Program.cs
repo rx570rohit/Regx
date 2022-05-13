@@ -12,8 +12,9 @@ namespace RegX
         public static void Main(String []arg)
         {
             User us1 =new User();
-           Console.WriteLine( us1.validateFirstName("Rohit"));
+            Console.WriteLine(us1.validateFirstName("Rohit"));
             Console.WriteLine(us1.validateLastName("Soni"));
+            Console.WriteLine(us1.validateMobNo("91 8319871184"));
         }
     }
 }

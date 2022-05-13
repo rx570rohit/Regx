@@ -11,15 +11,19 @@ namespace RegX
     {
         public static String FirstName = "^[A-Z]{1}[A-Za-z]{2,}$";
         public static String LastName = "^[A-Z]{1}[A-Za-z]{2,}$";
-       
+        public static String MobNo = "^[1-9]{2}[: :][0-9]{10}$";
         public bool validateFirstName(String fname)
         {
             return Regex.IsMatch(fname, FirstName);
         }
 
-        public bool validateLastName(String lname)
+        public bool validateLastName(String lname) 
         {
             return Regex.IsMatch(lname, LastName);
+        }
+        public bool validateMobNo(String mobno)
+        {
+            return Regex.IsMatch(mobno, MobNo);
         }
 
 
